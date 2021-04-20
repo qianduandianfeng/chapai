@@ -1,0 +1,38 @@
+<!--pages/index/index.wxml-->
+<view class="page">
+  <!-- 开关 -->
+  <view class="img"> <image src="../../image/01.png"/></view>
+  <!-- 电量 -->
+  <view class="electric">
+    <view>
+      <view>功率</view>
+      <view>220.0w</view>
+    </view>
+    <view>
+      <view>电量</view>
+      <view>60 kwh</view>
+    </view>
+    <view>
+      <view>状态</view>
+      <view>开启</view>
+    </view>
+  </view>
+  <!-- fonter -->
+<view class="fonter">
+  <view>
+    <image src="../../image/开关.ico" />
+    <view>开关</view>
+  </view>
+  <view>
+    <image src="../../image/新年时光.ico" />
+    <view>倒计时</view>
+  </view>
+  <view>
+    <image src="../../image/定时器.ico" />
+    <view>定时器</view>
+  </view><view>
+    <image src="../../image/电流符号.ico" />
+    <view>总电量</view>
+  </view>
+</view>
+</view>
